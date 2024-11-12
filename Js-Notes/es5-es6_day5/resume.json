@@ -1,0 +1,24 @@
+[
+    {
+        "personalDetails":{
+         "name":"Manikandan",
+        "fatherName":"Gopu.P",
+        "motherName":"valli.G",
+        "Location":"chennai"
+
+        },
+      "educational Info":{
+        "school":"VMHSS",
+        "10thGrade": 387,
+        "12thGrade": 840,
+        "college":"DG Vaishnav",
+        "Rank":"first Class"
+      },
+      "WorkDetails":{
+         "Company":"Accenture",
+         "Occupation":"Banking Operation Associate",
+          "Exp":3
+      }
+        
+    }
+]

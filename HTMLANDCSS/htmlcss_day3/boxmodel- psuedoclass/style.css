@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    border: 0px;
+    background-color:hotpink;
+}
+#box-model{
+ background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 10px solid black;
+  margin: 10px; 
+}
+
+#btn{
+    background-color: black;
+    color: aliceblue; 
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid red;
+    margin: 5px 10px 5px 10px;
+}
+
+a:hover{
+color: red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+    color: orange;
+}
+
+p{
+    color:inherit;
+    border: 2px solid black;
+    font-style: inherit;
+}
+
+.parent{
+    color :cornsilk;
+    padding: 10px;
+    margin: 10px;
+    font-style: italic;
+    background:linear-gradient(to right,yellow,rgb(197, 192, 255));
+
+}
+
+.child{
+    color:inherit;
+    font-style: normal;
+    background: inherit;
+}

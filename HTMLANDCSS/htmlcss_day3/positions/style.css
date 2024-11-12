@@ -1,0 +1,50 @@
+.main-cont{
+    height:600px;
+    width: 500px;
+    background-color: orange;
+    padding :10px 0px 10px 0px;
+    margin:0 auto;
+
+
+
+}
+
+.box{
+    height: 100px;
+    width:100px;
+    background-color: #fff;
+    border: 1px solid black;
+    /* padding:5px; */
+    margin:5px;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid black;
+
+
+}
+
+
+
+.absolute{
+    background-color: cadetblue;
+    position: absolute;
+    left: 25px;
+
+}
+
+.relative{
+    background-color: cornflowerblue;
+    position: relative;
+    left:50px
+}
+
+.sticky{
+    background-color: darkorchid;
+   
+}
+
+.fixed{
+    background-color: blueviolet;
+   
+    
+}

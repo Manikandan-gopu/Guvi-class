@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+   list-style: none;
+   display: flex;
+   justify-content: space-evenly;
+   
+   padding: 12px;
+   border: 1px solid black;
+   background-color: cornsilk;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+} 
+
+.nav-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+   
+    
+}
+
+li:hover{
+ color: magenta;
+
+}
+
+section{
+    height: 100vh;
+    border: 1px solid black;
+    display: grid;
+    /* place-items: center; */
+    background-color: rgb(206, 214, 214);
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#home{
+    display: grid;
+    grid-template-rows: 100vh;
+    background-image: url("./cartoon_characters_with_blue_background_hd_disney.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+#Project{
+ display: grid;
+ grid-template-rows: 10vh 90vh;
+ 
+}
+#About{
+    display: grid;
+    grid-template-rows: 10vh 10vh 80vh;
+}
+
+.heading1{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+
+
+}
+
+.mini{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:1rem;
+    /* overflow: scroll; */
+}
+
+img{
+    width: 50vw;
+}
+.heading{
+    background-color:whitesmoke;
+    color: rgb(154, 32, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+.sub-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px;
+}
+
+.card{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: bisque;
+    display: grid;
+    place-items:center;
+    gap: 3rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+input,
+textarea {
+  width: 80vw;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+textarea {
+  height: 30vh;
+}
+
+/* General reset for all screens */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile devices (small screens) - up to 600px */
+@media (max-width: 600px) {
+    /* Styles for small screens */
+    .nav-bar { font-size: 14px; }
+    .card { width: 100px; height: 150px; }
+    .sub-cont { gap: 1rem; padding: 5px; }
+    input, textarea { width: 90vw; }
+}
+
+/* Tablets (medium screens) - 601px to 1024px */
+@media (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .nav-bar { font-size: 16px; }
+    .card { width: 200px; height: 250px; }
+    .sub-cont { gap: 1.5rem; padding: 10px; }
+    input, textarea { width: 85vw; }
+}
+
+/* Laptops (larger screens) - 1025px to 1440px */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    /* Styles for laptops */
+    .nav-bar { font-size: 18px; }
+    .card { width: 250px; height: 300px; }
+    .sub-cont { gap: 2rem; padding: 15px; }
+    input, textarea { width: 80vw; }
+}
+
+/* Desktops (extra-large screens) - 1441px and above */
+@media (min-width: 1441px) {
+    /* Styles for desktops */
+    .nav-bar { font-size: 20px; }
+    .card { width: 300px; height: 350px; }
+    .sub-cont { gap: 2.5rem; padding: 20px; }
+    input, textarea { width: 75vw; }
+}
